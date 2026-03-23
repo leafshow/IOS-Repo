@@ -191,19 +191,25 @@ def generate_index_html(repo_name="AltStore 软件源"):
 def generate_default_icon():
     """生成默认图标"""
     # 创建一个简单的占位符文本文件，代替实际的图标
+    # 注意：实际使用时应替换为真实的PNG图标文件
     with open('altsrc-repo/icons/default-icon.txt', 'w') as f:
         f.write("默认图标占位符文件")
     
-    print("生成默认图标文件: altsrc-repo/icons/default-icon.png (占位符)")
+    print("生成默认图标文件: altsrc-repo/icons/default-icon.txt (占位符)")
 
 
 def generate_default_banner():
     """生成默认横幅"""
-    # 创建一个简单的占位符文本文件，代替实际的横幅图片
-    with open('altsrc-repo/assets/welcome-banner.txt', 'w') as f:
-        f.write("欢迎横幅占位符文件")
-    
-    print("生成默认横幅文件: altsrc-repo/assets/welcome-banner.jpg (占位符)")
+    # 检查是否已存在横幅图片文件
+    banner_path = Path('altsrc-repo/assets/welcome-banner.jpg')
+    if not banner_path.exists():
+        # 如果不存在，则创建一个占位符文本文件
+        # 注意：实际使用时应替换为真实的JPG或PNG横幅文件
+        with open('altsrc-repo/assets/welcome-banner.txt', 'w') as f:
+            f.write("欢迎横幅占位符文件")
+        print("生成默认横幅文件: altsrc-repo/assets/welcome-banner.txt (占位符)")
+    else:
+        print("检测到已存在的横幅文件: altsrc-repo/assets/welcome-banner.jpg")
 
 
 def update_readme():
