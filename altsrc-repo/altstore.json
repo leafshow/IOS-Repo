@@ -9,7 +9,7 @@
       "developerName": "开发者名称",
       "subtitle": "示例应用描述",
       "localizedDescription": "这是一个示例应用，用于演示 AltStore 软件源功能。",
-      "iconURL": "icons/default-icon.png",
+      "iconURL": "icons/default-icon.txt",
       "versions": [
         {
           "version": "1.0.0",
@@ -28,7 +28,7 @@
       "title": "欢迎使用我们的软件源",
       "identifier": "welcome-news",
       "date": "2026-03-23",
-      "imageURL": "assets/welcome-banner.jpg",
+      "imageURL": "assets/welcome-banner.txt",
       "subtitle": "软件源上线公告",
       "localizedDescription": "我们很高兴地宣布 AltStore 软件源正式上线，提供各种高质量的 IPA 应用。"
     }
