@@ -9,7 +9,7 @@ altsrc-repo/
 ├── altstore.json      # AltStore 软件源配置文件
 ├── index.html         # 软件源的网页界面
 ├── apps/              # 存放 IPA 应用文件
-│   └── sample-app.ipa
+│   └── 铃声管理_RingTonesManager_1.1-4_.ipa
 ├── assets/            # 存放资源文件（如新闻横幅等）
 └── icons/             # 存放应用图标
 ```

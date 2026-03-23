@@ -33,19 +33,19 @@ def generate_altstore_json(repo_name="AltStore 软件源", domain="yourdomain.co
         "version": 1,
         "apps": [
             {
-                "name": "示例应用",
-                "bundleIdentifier": "com.example.sampleapp",
+                "name": "铃声管理",
+                "bundleIdentifier": "com.ringtones.manager",
                 "developerName": "开发者名称",
-                "subtitle": "示例应用描述",
-                "localizedDescription": "这是一个示例应用，用于演示 AltStore 软件源功能。",
+                "subtitle": "铃声管理工具",
+                "localizedDescription": "铃声管理应用，帮助您管理iOS设备上的铃声。",
                 "iconURL": "icons/default-icon.png",
                 "versions": [
                     {
-                        "version": "1.0.0",
+                        "version": "1.1-4",
                         "date": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
-                        "localizedDescription": "初始版本",
-                        "downloadURL": "apps/sample-app.ipa",
-                        "size": 10485760,
+                        "localizedDescription": "最新版本",
+                        "downloadURL": "apps/铃声管理_RingTonesManager_1.1-4_.ipa",
+                        "size": 6998429,
                         "minOS": "12.0",
                         "maxOS": "18.0"
                     }
