@@ -1,6 +1,7 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/altsrc-repo/$1" }
+    { "source": "/", "destination": "/altsrc-repo/altstore.json" },
+    { "source": "/altstore.json", "destination": "/altsrc-repo/altstore.json" }
   ],
   "headers": [
     {

@@ -38,11 +38,11 @@ def generate_altstore_json(repo_name="AltStore 软件源", domain="yourdomain.co
                 "developerName": "开发者名称",
                 "subtitle": "示例应用描述",
                 "localizedDescription": "这是一个示例应用，用于演示 AltStore 软件源功能。",
-                "iconURL": "icons/default-icon.txt",
+                "iconURL": "icons/default-icon.png",
                 "versions": [
                     {
                         "version": "1.0.0",
-                        "date": datetime.now().strftime("%Y-%m-%d"),
+                        "date": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
                         "localizedDescription": "初始版本",
                         "downloadURL": "apps/sample-app.ipa",
                         "size": 10485760,
@@ -56,8 +56,8 @@ def generate_altstore_json(repo_name="AltStore 软件源", domain="yourdomain.co
             {
                 "title": "欢迎使用我们的软件源",
                 "identifier": "welcome-news",
-                "date": datetime.now().strftime("%Y-%m-%d"),
-                "imageURL": "assets/welcome-banner.txt",
+                "date": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "imageURL": "assets/welcome-banner.jpg",
                 "subtitle": "软件源上线公告",
                 "localizedDescription": "我们很高兴地宣布 AltStore 软件源正式上线，提供各种高质量的 IPA 应用。"
             }
@@ -169,7 +169,7 @@ def generate_index_html(repo_name="AltStore 软件源"):
         <div class="apps">
             <h2>可用应用</h2>
             <div class="app">
-                <img src="icons/default-icon.txt" alt="App Icon" class="app-icon" onerror="this.onerror=null;this.src='icons/default-icon.txt';">
+                <img src="icons/default-icon.png" alt="App Icon" class="app-icon" onerror="this.onerror=null;this.src='icons/default-icon.png';">
                 <div class="app-info">
                     <div class="app-name">示例应用</div>
                     <div class="app-version">版本 1.0.0</div>
