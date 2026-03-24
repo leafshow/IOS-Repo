@@ -3,9 +3,9 @@
   "identifier": "com.ios-repo.vercel.app.altsrc-repo",
   "apps": [
     {
-      "name": "Ringtone Manager",
-      "bundleIdentifier": "com.ringtones.manager",
-      "developerName": "Developer Name",
+      "name": "ringtones-manager_1.1-4",
+      "bundleIdentifier": "com.ringtonesmanager1.14",
+      "developerName": "Ringtone Developer",
       "subtitle": "Ringtone Management Tool",
       "localizedDescription": "Ringtone management application to help you manage ringtones on your iOS device.",
       "iconURL": "https://ios-repo.vercel.app/icons/default-icon.png",
@@ -13,11 +13,74 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "1.1-4",
-          "date": "2026-03-24T16:51:27Z",
+          "version": "1.1",
+          "date": "2026-03-24T20:00:47Z",
           "localizedDescription": "Latest Version",
           "downloadURL": "https://ios-repo.vercel.app/apps/ringtones-manager_1.1-4.ipa",
           "size": 6998429,
+          "minOSVersion": "12.0",
+          "maxOSVersion": "18.0"
+        }
+      ]
+    },
+    {
+      "name": "CaiNiao",
+      "bundleIdentifier": "com.cainiao",
+      "developerName": "CaiNiao Developer",
+      "subtitle": "CaiNiao Express Assistant",
+      "localizedDescription": "CaiNiao Express application for package tracking and logistics services.",
+      "iconURL": "https://ios-repo.vercel.app/icons/default-icon.png",
+      "tintColor": "41cdff",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-03-24T20:00:47Z",
+          "localizedDescription": "Latest Version",
+          "downloadURL": "https://ios-repo.vercel.app/apps/CaiNiao_Decrypted.ipa",
+          "size": 75434766,
+          "minOSVersion": "12.0",
+          "maxOSVersion": "18.0"
+        }
+      ]
+    },
+    {
+      "name": "PPT",
+      "bundleIdentifier": "com.ppt",
+      "developerName": "PPT Developer",
+      "subtitle": "PPT Presentation Tool",
+      "localizedDescription": "PowerPoint presentation application for viewing and editing presentations.",
+      "iconURL": "https://ios-repo.vercel.app/icons/default-icon.png",
+      "tintColor": "41cdff",
+      "category": "productivity",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-03-24T20:00:47Z",
+          "localizedDescription": "Latest Version",
+          "downloadURL": "https://ios-repo.vercel.app/apps/PPT_Decrypted.ipa",
+          "size": 4663639,
+          "minOSVersion": "12.0",
+          "maxOSVersion": "18.0"
+        }
+      ]
+    },
+    {
+      "name": "TVBox",
+      "bundleIdentifier": "com.tvbox",
+      "developerName": "TVBox Developer",
+      "subtitle": "TVBox Media Player",
+      "localizedDescription": "TVBox media application for streaming content and entertainment.",
+      "iconURL": "https://ios-repo.vercel.app/icons/default-icon.png",
+      "tintColor": "41cdff",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-03-24T20:00:47Z",
+          "localizedDescription": "Latest Version",
+          "downloadURL": "https://ios-repo.vercel.app/apps/TVBox_Decrypted.ipa",
+          "size": 19598601,
           "minOSVersion": "12.0",
           "maxOSVersion": "18.0"
         }
