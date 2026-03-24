@@ -41,7 +41,7 @@ python generate_repo.py --name "我的软件源" --domain "mydomain.com"
 1. 打开 AltStore 应用
 2. 点击 "软件源" 选项卡
 3. 点击右上角的 "+" 按钮
-4. 输入软件源地址（通常是 `https://yourdomain.com/altsrc-repo/altstore.json`）
+4. 输入软件源地址（通常是 `https://ios-repo.vercel.app/altstore.json`）
 5. 点击 "添加软件源"
 
 ### 添加新应用
