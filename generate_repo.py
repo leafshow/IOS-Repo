@@ -46,10 +46,15 @@ def generate_altstore_json(repo_name="AltStore 软件源", domain="yourdomain.co
                         "localizedDescription": "最新版本",
                         "downloadURL": "apps/铃声管理_RingTonesManager_1.1-4_.ipa",
                         "size": 6998429,
-                        "minOS": "12.0",
-                        "maxOS": "18.0"
+                        "minOSVersion": "12.0",
+                        "maxOSVersion": "18.0"
                     }
-                ]
+                ],
+                "version": "1.1-4",
+                "versionDate": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "versionDescription": "最新版本",
+                "downloadURL": "apps/铃声管理_RingTonesManager_1.1-4_.ipa",
+                "size": 6998429
             }
         ],
         "news": [

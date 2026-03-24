@@ -13,21 +13,26 @@
       "versions": [
         {
           "version": "1.1-4",
-          "date": "2026-03-23T00:00:00Z",
+          "date": "2026-03-24T15:45:04Z",
           "localizedDescription": "最新版本",
           "downloadURL": "apps/铃声管理_RingTonesManager_1.1-4_.ipa",
           "size": 6998429,
-          "minOS": "12.0",
-          "maxOS": "18.0"
+          "minOSVersion": "12.0",
+          "maxOSVersion": "18.0"
         }
-      ]
+      ],
+      "version": "1.1-4",
+      "versionDate": "2026-03-24T15:45:04Z",
+      "versionDescription": "最新版本",
+      "downloadURL": "apps/铃声管理_RingTonesManager_1.1-4_.ipa",
+      "size": 6998429
     }
   ],
   "news": [
     {
       "title": "欢迎使用我们的软件源",
       "identifier": "welcome-news",
-      "date": "2026-03-23T00:00:00Z",
+      "date": "2026-03-24T15:45:04Z",
       "imageURL": "assets/welcome-banner.jpg",
       "subtitle": "软件源上线公告",
       "localizedDescription": "我们很高兴地宣布 AltStore 软件源正式上线，提供各种高质量的 IPA 应用。"
