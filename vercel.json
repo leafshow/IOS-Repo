@@ -1,17 +1,17 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/altsrc-repo/altstore.json" },
-    { "source": "/altstore.json", "destination": "/altsrc-repo/altstore.json" }
-  ],
-  "headers": [
+  "version": 2,
+  "routes": [
     {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        }
-      ]
+      "src": "/altstore.json",
+      "dest": "/altsrc-repo/altstore.json"
+    },
+    {
+      "src": "/",
+      "dest": "/altsrc-repo/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/altsrc-repo/$1"
     }
   ]
 }
