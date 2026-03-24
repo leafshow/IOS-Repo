@@ -25,18 +25,18 @@ def create_directory_structure():
         print(f"创建目录: {directory}")
 
 
-def generate_altstore_json(repo_name="AltStore 软件源", domain="yourdomain.com"):
+def generate_altstore_json(repo_name="AltStore Repository", domain="yourdomain.com"):
     """生成 altstore.json 配置文件"""
     altstore_config = {
         "name": repo_name,
         "identifier": f"com.{domain}.altsrc-repo",
         "apps": [
             {
-                "name": "铃声管理",
+                "name": "Ringtone Manager",
                 "bundleIdentifier": "com.ringtones.manager",
-                "developerName": "开发者名称",
-                "subtitle": "铃声管理工具",
-                "localizedDescription": "铃声管理应用，帮助您管理iOS设备上的铃声。",
+                "developerName": "Developer Name",
+                "subtitle": "Ringtone Management Tool",
+                "localizedDescription": "Ringtone management application to help you manage ringtones on your iOS device.",
                 "iconURL": f"https://{domain}/icons/default-icon.png",
                 "tintColor": "41cdff",
                 "category": "utilities",
@@ -44,7 +44,7 @@ def generate_altstore_json(repo_name="AltStore 软件源", domain="yourdomain.co
                     {
                         "version": "1.1-4",
                         "date": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
-                        "localizedDescription": "最新版本",
+                        "localizedDescription": "Latest Version",
                         "downloadURL": f"https://{domain}/apps/ringtones-manager_1.1-4.ipa",
                         "size": 6998429,
                         "minOSVersion": "12.0",
@@ -61,10 +61,10 @@ def generate_altstore_json(repo_name="AltStore 软件源", domain="yourdomain.co
     print("生成配置文件: altsrc-repo/altstore.json")
 
 
-def generate_index_html(repo_name="AltStore 软件源"):
+def generate_index_html(repo_name="AltStore Repository"):
     """生成 index.html 文件"""
     html_content = f"""<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -151,22 +151,22 @@ def generate_index_html(repo_name="AltStore 软件源"):
 <body>
     <div class="container">
         <h1>{repo_name}</h1>
-        <p class="description">欢迎使用我们的 {repo_name}，这里提供各种经过验证的 IPA 应用</p>
+        <p class="description">Welcome to our {repo_name}, providing various verified IPA applications</p>
         
         <div class="repo-url">
-            软件源地址: https://yourdomain.com/altsrc-repo/altstore.json
+            Repository URL: https://yourdomain.com/altsrc-repo/altstore.json
         </div>
         
         <div class="apps">
-            <h2>可用应用</h2>
+            <h2>Available Apps</h2>
             <div class="app">
                 <img src="icons/default-icon.png" alt="App Icon" class="app-icon" onerror="this.onerror=null;this.src='icons/default-icon.png';">
                 <div class="app-info">
-                    <div class="app-name">示例应用</div>
-                    <div class="app-version">版本 1.0.0</div>
-                    <p>这是一个示例应用，用于演示软件源功能</p>
+                    <div class="app-name">Ringtone Manager</div>
+                    <div class="app-version">Version 1.1-4</div>
+                    <p>Ringtone management application to help you manage ringtones on your iOS device.</p>
                 </div>
-                <button class="install-btn">安装</button>
+                <button class="install-btn">Install</button>
             </div>
         </div>
     </div>
@@ -334,7 +334,7 @@ Web 界面文件，用于展示软件源中的应用列表，方便用户了解�
 
 def main():
     parser = argparse.ArgumentParser(description='自动化生成 AltStore 软件源')
-    parser.add_argument('--name', type=str, default='AltStore 软件源', help='软件源名称')
+    parser.add_argument('--name', type=str, default='AltStore Repository', help='软件源名称')
     parser.add_argument('--domain', type=str, default='yourdomain.com', help='域名')
     
     args = parser.parse_args()

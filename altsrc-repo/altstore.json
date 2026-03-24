@@ -1,21 +1,21 @@
 {
-  "name": "AltStore 软件源",
+  "name": "AltStore Repository",
   "identifier": "com.ios-repo.vercel.app.altsrc-repo",
   "apps": [
     {
-      "name": "铃声管理",
+      "name": "Ringtone Manager",
       "bundleIdentifier": "com.ringtones.manager",
-      "developerName": "开发者名称",
-      "subtitle": "铃声管理工具",
-      "localizedDescription": "铃声管理应用，帮助您管理iOS设备上的铃声。",
+      "developerName": "Developer Name",
+      "subtitle": "Ringtone Management Tool",
+      "localizedDescription": "Ringtone management application to help you manage ringtones on your iOS device.",
       "iconURL": "https://ios-repo.vercel.app/icons/default-icon.png",
       "tintColor": "41cdff",
       "category": "utilities",
       "versions": [
         {
           "version": "1.1-4",
-          "date": "2026-03-24T16:35:46Z",
-          "localizedDescription": "最新版本",
+          "date": "2026-03-24T16:51:27Z",
+          "localizedDescription": "Latest Version",
           "downloadURL": "https://ios-repo.vercel.app/apps/ringtones-manager_1.1-4.ipa",
           "size": 6998429,
           "minOSVersion": "12.0",
