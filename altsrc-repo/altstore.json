@@ -1,7 +1,6 @@
 {
   "name": "AltStore 软件源",
-  "identifier": "com.yourdomain-com.altsrc-repo",
-  "version": 1,
+  "identifier": "com.ios-repo.vercel.app.altsrc-repo",
   "apps": [
     {
       "name": "铃声管理",
@@ -9,33 +8,20 @@
       "developerName": "开发者名称",
       "subtitle": "铃声管理工具",
       "localizedDescription": "铃声管理应用，帮助您管理iOS设备上的铃声。",
-      "iconURL": "icons/default-icon.png",
+      "iconURL": "https://ios-repo.vercel.app/icons/default-icon.png",
+      "tintColor": "41cdff",
+      "category": "utilities",
       "versions": [
         {
           "version": "1.1-4",
-          "date": "2026-03-24T15:45:04Z",
+          "date": "2026-03-24T16:35:46Z",
           "localizedDescription": "最新版本",
-          "downloadURL": "apps/铃声管理_RingTonesManager_1.1-4_.ipa",
+          "downloadURL": "https://ios-repo.vercel.app/apps/ringtones-manager_1.1-4.ipa",
           "size": 6998429,
           "minOSVersion": "12.0",
           "maxOSVersion": "18.0"
         }
-      ],
-      "version": "1.1-4",
-      "versionDate": "2026-03-24T15:45:04Z",
-      "versionDescription": "最新版本",
-      "downloadURL": "apps/铃声管理_RingTonesManager_1.1-4_.ipa",
-      "size": 6998429
-    }
-  ],
-  "news": [
-    {
-      "title": "欢迎使用我们的软件源",
-      "identifier": "welcome-news",
-      "date": "2026-03-24T15:45:04Z",
-      "imageURL": "assets/welcome-banner.jpg",
-      "subtitle": "软件源上线公告",
-      "localizedDescription": "我们很高兴地宣布 AltStore 软件源正式上线，提供各种高质量的 IPA 应用。"
+      ]
     }
   ]
 }

@@ -29,8 +29,7 @@ def generate_altstore_json(repo_name="AltStore 软件源", domain="yourdomain.co
     """生成 altstore.json 配置文件"""
     altstore_config = {
         "name": repo_name,
-        "identifier": f"com.{domain.replace('.', '-')}.altsrc-repo",
-        "version": 1,
+        "identifier": f"com.{domain}.altsrc-repo",
         "apps": [
             {
                 "name": "铃声管理",
@@ -38,33 +37,20 @@ def generate_altstore_json(repo_name="AltStore 软件源", domain="yourdomain.co
                 "developerName": "开发者名称",
                 "subtitle": "铃声管理工具",
                 "localizedDescription": "铃声管理应用，帮助您管理iOS设备上的铃声。",
-                "iconURL": "icons/default-icon.png",
+                "iconURL": f"https://{domain}/icons/default-icon.png",
+                "tintColor": "41cdff",
+                "category": "utilities",
                 "versions": [
                     {
                         "version": "1.1-4",
                         "date": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
                         "localizedDescription": "最新版本",
-                        "downloadURL": "apps/铃声管理_RingTonesManager_1.1-4_.ipa",
+                        "downloadURL": f"https://{domain}/apps/ringtones-manager_1.1-4.ipa",
                         "size": 6998429,
                         "minOSVersion": "12.0",
                         "maxOSVersion": "18.0"
                     }
-                ],
-                "version": "1.1-4",
-                "versionDate": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "versionDescription": "最新版本",
-                "downloadURL": "apps/铃声管理_RingTonesManager_1.1-4_.ipa",
-                "size": 6998429
-            }
-        ],
-        "news": [
-            {
-                "title": "欢迎使用我们的软件源",
-                "identifier": "welcome-news",
-                "date": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "imageURL": "assets/welcome-banner.jpg",
-                "subtitle": "软件源上线公告",
-                "localizedDescription": "我们很高兴地宣布 AltStore 软件源正式上线，提供各种高质量的 IPA 应用。"
+                ]
             }
         ]
     }
