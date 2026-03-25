@@ -14,7 +14,7 @@
       "versions": [
         {
           "version": "1.1-4",
-          "date": "2026-03-24T21:04:23Z",
+          "date": "2026-03-25T09:13:15Z",
           "localizedDescription": "Latest Version",
           "downloadURL": "https://ios-repo.vercel.app/apps/ringtones-manager_1.1-4.ipa",
           "size": 6998429,
@@ -24,21 +24,21 @@
       ]
     },
     {
-      "name": "CaiNiao",
-      "bundleIdentifier": "com.cainiao",
-      "developerName": "CaiNiao Developer",
-      "subtitle": "CaiNiao Express Assistant",
-      "localizedDescription": "CaiNiao Express application for package tracking and logistics services.",
+      "name": "com.cainiao.cnwireless_8.11.305_und3fined",
+      "bundleIdentifier": "com.com.cainiao.cnwireless8.11.305und3fined",
+      "developerName": "Developer",
+      "subtitle": "com.cainiao.cnwireless_8.11.305_und3fined App",
+      "localizedDescription": "Application com.cainiao.cnwireless_8.11.305_und3fined for iOS.",
       "iconURL": "https://ios-repo.vercel.app/icons/default-icon.png",
       "tintColor": "41cdff",
       "category": "utilities",
       "versions": [
         {
           "version": "4.3.4",
-          "date": "2026-03-24T21:04:23Z",
+          "date": "2026-03-25T09:13:15Z",
           "localizedDescription": "Latest Version",
-          "downloadURL": "https://ios-repo.vercel.app/apps/CaiNiao_Decrypted.ipa",
-          "size": 75434766,
+          "downloadURL": "https://ios-repo.vercel.app/apps/com.cainiao.cnwireless_8.11.305_und3fined.ipa",
+          "size": 75452254,
           "minOSVersion": "12.0",
           "maxOSVersion": "18.0"
         }
@@ -56,7 +56,7 @@
       "versions": [
         {
           "version": "2.4",
-          "date": "2026-03-24T21:04:23Z",
+          "date": "2026-03-25T09:13:15Z",
           "localizedDescription": "Latest Version",
           "downloadURL": "https://ios-repo.vercel.app/apps/PPT_Decrypted.ipa",
           "size": 4663639,
@@ -77,7 +77,7 @@
       "versions": [
         {
           "version": "1",
-          "date": "2026-03-24T21:04:23Z",
+          "date": "2026-03-25T09:13:15Z",
           "localizedDescription": "Latest Version",
           "downloadURL": "https://ios-repo.vercel.app/apps/TVBox_Decrypted.ipa",
           "size": 19598601,
